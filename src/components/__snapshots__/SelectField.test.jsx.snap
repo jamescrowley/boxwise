@@ -3,23 +3,23 @@
 exports[`BoxList renders correctly with items 1`] = `
 <div>
   <div
-    class="MuiFormControl-root-1 MuiFormControl-marginDense-3 MuiFormControl-fullWidth-4"
+    class="MuiFormControl-root-69 MuiFormControl-marginDense-71 MuiFormControl-fullWidth-72"
   >
     <label
-      class="MuiFormLabel-root-16 MuiInputLabel-root-5 MuiInputLabel-formControl-10 MuiInputLabel-animated-13 MuiInputLabel-marginDense-11"
+      class="MuiFormLabel-root-84 MuiInputLabel-root-73 MuiInputLabel-formControl-78 MuiInputLabel-animated-81 MuiInputLabel-marginDense-79"
       data-shrink="false"
     >
       Some Field
     </label>
     <div
-      class="MuiInputBase-root-43 MuiInput-root-30 MuiInput-underline-34 MuiInputBase-fullWidth-52 MuiInput-fullWidth-37 MuiInputBase-formControl-44 MuiInput-formControl-31 MuiInputBase-marginDense-50"
+      class="MuiInputBase-root-111 MuiInput-root-98 MuiInput-underline-102 MuiInputBase-fullWidth-120 MuiInput-fullWidth-105 MuiInputBase-formControl-112 MuiInput-formControl-99 MuiInputBase-marginDense-118"
     >
       <div
-        class="MuiSelect-root-23"
+        class="MuiSelect-root-91"
       >
         <select
           aria-invalid="false"
-          class="MuiSelect-select-24 MuiInputBase-input-53 MuiInput-input-38 MuiInputBase-inputMarginDense-54 MuiInput-inputMarginDense-39"
+          class="MuiSelect-select-92 MuiInputBase-input-121 MuiInput-input-106 MuiInputBase-inputMarginDense-122 MuiInput-inputMarginDense-107"
           name="SomeField"
         >
           <option
@@ -33,7 +33,7 @@ exports[`BoxList renders correctly with items 1`] = `
         </select>
         <svg
           aria-hidden="true"
-          class="MuiSvgIcon-root-60 MuiSelect-icon-29"
+          class="MuiSvgIcon-root-128 MuiSelect-icon-97"
           focusable="false"
           role="presentation"
           viewBox="0 0 24 24"
@@ -94,23 +94,23 @@ exports[`BoxList renders correctly with no items 1`] = `
 exports[`BoxList triggers onChange 1`] = `
 <div>
   <div
-    class="MuiFormControl-root-1 MuiFormControl-marginDense-3 MuiFormControl-fullWidth-4"
+    class="MuiFormControl-root-137 MuiFormControl-marginDense-139 MuiFormControl-fullWidth-140"
   >
     <label
-      class="MuiFormLabel-root-16 MuiInputLabel-root-5 MuiInputLabel-formControl-10 MuiInputLabel-animated-13 MuiInputLabel-marginDense-11"
+      class="MuiFormLabel-root-152 MuiInputLabel-root-141 MuiInputLabel-formControl-146 MuiInputLabel-animated-149 MuiInputLabel-marginDense-147"
       data-shrink="false"
     >
       Some Field
     </label>
     <div
-      class="MuiInputBase-root-43 MuiInput-root-30 MuiInput-underline-34 MuiInputBase-fullWidth-52 MuiInput-fullWidth-37 MuiInputBase-formControl-44 MuiInput-formControl-31 MuiInputBase-marginDense-50"
+      class="MuiInputBase-root-179 MuiInput-root-166 MuiInput-underline-170 MuiInputBase-fullWidth-188 MuiInput-fullWidth-173 MuiInputBase-formControl-180 MuiInput-formControl-167 MuiInputBase-marginDense-186"
     >
       <div
-        class="MuiSelect-root-23"
+        class="MuiSelect-root-159"
       >
         <select
           aria-invalid="false"
-          class="MuiSelect-select-24 MuiInputBase-input-53 MuiInput-input-38 MuiInputBase-inputMarginDense-54 MuiInput-inputMarginDense-39"
+          class="MuiSelect-select-160 MuiInputBase-input-189 MuiInput-input-174 MuiInputBase-inputMarginDense-190 MuiInput-inputMarginDense-175"
           data-testid="filter"
           name="SomeField"
         >
@@ -125,7 +125,7 @@ exports[`BoxList triggers onChange 1`] = `
         </select>
         <svg
           aria-hidden="true"
-          class="MuiSvgIcon-root-60 MuiSelect-icon-29"
+          class="MuiSvgIcon-root-196 MuiSelect-icon-165"
           focusable="false"
           role="presentation"
           viewBox="0 0 24 24"
