@@ -6,7 +6,7 @@ import { Product } from "modules/products/api";
 import { Box } from "modules/boxes/api";
 import { User } from "modules/auth/api";
 
-import { IndexedState } from "./reducerFactory";
+import { IndexedState } from "./indexedState";
 
 export interface ProductsState extends IndexedState<Product> {
   byId: { [id: string]: Product };
@@ -16,9 +16,10 @@ export interface ProductsState extends IndexedState<Product> {
 }
 
 export interface BoxesState {
+  byId: { [id: string]: Box };
+  allIds: string[];
   loading: boolean;
   error?: string;
-  data: Box[];
 }
 
 export interface UserState {

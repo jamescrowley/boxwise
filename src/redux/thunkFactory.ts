@@ -25,11 +25,7 @@ export function createThunk<TResult, TArgs extends any[]>(
   action: AsyncAction,
   handleAction: (...args: TArgs) => Promise<TResult>
 ): (...args: TArgs) => ThunkResult<void> {
-  return (...args) => async dispatch => {
-    dispatch({ type: action.START });
-    return handleAction(...args).then(
-      result => dispatch({ type: action.SUCCESS, payload: result }),
-      error => dispatch({ type: action.ERROR, payload: error })
-    );
-  };
+  return createThunkWithState(action, (getState, ...args) =>
+    handleAction(...args)
+  );
 }

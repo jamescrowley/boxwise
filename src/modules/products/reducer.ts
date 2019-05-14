@@ -1,8 +1,6 @@
 /* eslint-disable no-case-declarations */
-import { AnyAction } from "redux";
-
-import { createReducerForIndexedState } from "redux/reducerFactory";
-import { RootState, ProductsState } from "redux/storeTypes";
+import { createReducerForIndexedState } from "redux/indexedState";
+import { RootState, RootAction, ProductsState } from "redux/storeTypes";
 
 import {
   PRODUCT_DELETE,
@@ -22,7 +20,8 @@ export function getAllProductsFromState({ products }: RootState) {
 
 const productsIndexedStateReducer = createReducerForIndexedState<
   Product,
-  ProductsState
+  ProductsState,
+  RootAction
 >(PRODUCT_ADD, PRODUCT_EDIT, PRODUCT_LIST, PRODUCT_DELETE);
 
 export default function products(
@@ -32,7 +31,7 @@ export default function products(
     loading: false,
     error: undefined
   },
-  action: AnyAction
+  action: RootAction
 ) {
   const { type } = action;
 
