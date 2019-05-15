@@ -9,24 +9,26 @@ exports[`BoxList renders correctly when boxes match filter 1`] = `
       class="BoxList-productSelect-454"
     >
       <div
-        class="MuiFormControl-root-455 MuiFormControl-marginDense-457 MuiFormControl-fullWidth-458"
+        class="MuiFormControl-root-455 MuiFormControl-marginNormal-456 MuiFormControl-fullWidth-458"
       >
         <label
-          class="MuiFormLabel-root-470 MuiInputLabel-root-459 MuiInputLabel-formControl-464 MuiInputLabel-animated-467 MuiInputLabel-marginDense-465"
+          class="MuiFormLabel-root-470 MuiInputLabel-root-459 MuiInputLabel-formControl-464 MuiInputLabel-animated-467"
           data-shrink="false"
+          for="productIdFilter"
         >
           Filter by product
         </label>
         <div
-          class="MuiInputBase-root-497 MuiInput-root-484 MuiInput-underline-488 MuiInputBase-fullWidth-506 MuiInput-fullWidth-491 MuiInputBase-formControl-498 MuiInput-formControl-485 MuiInputBase-marginDense-504"
+          class="MuiInputBase-root-497 MuiInput-root-484 MuiInput-underline-488 MuiInputBase-fullWidth-506 MuiInput-fullWidth-491 MuiInputBase-formControl-498 MuiInput-formControl-485"
         >
           <div
             class="MuiSelect-root-477"
           >
             <select
               aria-invalid="false"
-              class="MuiSelect-select-478 MuiInputBase-input-507 MuiInput-input-492 MuiInputBase-inputMarginDense-508 MuiInput-inputMarginDense-493"
+              class="MuiSelect-select-478 MuiInputBase-input-507 MuiInput-input-492"
               data-testid="productsFilter"
+              id="productIdFilter"
               name="productIdFilter"
             >
               <option
@@ -102,24 +104,26 @@ exports[`BoxList renders correctly when boxes present 1`] = `
       class="BoxList-productSelect-184"
     >
       <div
-        class="MuiFormControl-root-185 MuiFormControl-marginDense-187 MuiFormControl-fullWidth-188"
+        class="MuiFormControl-root-185 MuiFormControl-marginNormal-186 MuiFormControl-fullWidth-188"
       >
         <label
-          class="MuiFormLabel-root-200 MuiInputLabel-root-189 MuiInputLabel-formControl-194 MuiInputLabel-animated-197 MuiInputLabel-marginDense-195"
+          class="MuiFormLabel-root-200 MuiInputLabel-root-189 MuiInputLabel-formControl-194 MuiInputLabel-animated-197"
           data-shrink="false"
+          for="productIdFilter"
         >
           Filter by product
         </label>
         <div
-          class="MuiInputBase-root-227 MuiInput-root-214 MuiInput-underline-218 MuiInputBase-fullWidth-236 MuiInput-fullWidth-221 MuiInputBase-formControl-228 MuiInput-formControl-215 MuiInputBase-marginDense-234"
+          class="MuiInputBase-root-227 MuiInput-root-214 MuiInput-underline-218 MuiInputBase-fullWidth-236 MuiInput-fullWidth-221 MuiInputBase-formControl-228 MuiInput-formControl-215"
         >
           <div
             class="MuiSelect-root-207"
           >
             <select
               aria-invalid="false"
-              class="MuiSelect-select-208 MuiInputBase-input-237 MuiInput-input-222 MuiInputBase-inputMarginDense-238 MuiInput-inputMarginDense-223"
+              class="MuiSelect-select-208 MuiInputBase-input-237 MuiInput-input-222"
               data-testid="productsFilter"
+              id="productIdFilter"
               name="productIdFilter"
             >
               <option
@@ -226,24 +230,26 @@ exports[`BoxList renders correctly when no boxes present matching filter 1`] = `
       class="BoxList-productSelect-319"
     >
       <div
-        class="MuiFormControl-root-320 MuiFormControl-marginDense-322 MuiFormControl-fullWidth-323"
+        class="MuiFormControl-root-320 MuiFormControl-marginNormal-321 MuiFormControl-fullWidth-323"
       >
         <label
-          class="MuiFormLabel-root-335 MuiInputLabel-root-324 MuiInputLabel-formControl-329 MuiInputLabel-animated-332 MuiInputLabel-marginDense-330"
+          class="MuiFormLabel-root-335 MuiInputLabel-root-324 MuiInputLabel-formControl-329 MuiInputLabel-animated-332"
           data-shrink="false"
+          for="productIdFilter"
         >
           Filter by product
         </label>
         <div
-          class="MuiInputBase-root-362 MuiInput-root-349 MuiInput-underline-353 MuiInputBase-fullWidth-371 MuiInput-fullWidth-356 MuiInputBase-formControl-363 MuiInput-formControl-350 MuiInputBase-marginDense-369"
+          class="MuiInputBase-root-362 MuiInput-root-349 MuiInput-underline-353 MuiInputBase-fullWidth-371 MuiInput-fullWidth-356 MuiInputBase-formControl-363 MuiInput-formControl-350"
         >
           <div
             class="MuiSelect-root-342"
           >
             <select
               aria-invalid="false"
-              class="MuiSelect-select-343 MuiInputBase-input-372 MuiInput-input-357 MuiInputBase-inputMarginDense-373 MuiInput-inputMarginDense-358"
+              class="MuiSelect-select-343 MuiInputBase-input-372 MuiInput-input-357"
               data-testid="productsFilter"
+              id="productIdFilter"
               name="productIdFilter"
             >
               <option
@@ -319,24 +325,26 @@ exports[`BoxList renders correctly with no boxes 1`] = `
       class="BoxList-productSelect-4"
     >
       <div
-        class="MuiFormControl-root-5 MuiFormControl-marginDense-7 MuiFormControl-fullWidth-8"
+        class="MuiFormControl-root-5 MuiFormControl-marginNormal-6 MuiFormControl-fullWidth-8"
       >
         <label
-          class="MuiFormLabel-root-20 MuiInputLabel-root-9 MuiInputLabel-formControl-14 MuiInputLabel-animated-17 MuiInputLabel-marginDense-15"
+          class="MuiFormLabel-root-20 MuiInputLabel-root-9 MuiInputLabel-formControl-14 MuiInputLabel-animated-17"
           data-shrink="false"
+          for="productIdFilter"
         >
           Filter by product
         </label>
         <div
-          class="MuiInputBase-root-47 MuiInput-root-34 MuiInput-underline-38 MuiInputBase-fullWidth-56 MuiInput-fullWidth-41 MuiInputBase-formControl-48 MuiInput-formControl-35 MuiInputBase-marginDense-54"
+          class="MuiInputBase-root-47 MuiInput-root-34 MuiInput-underline-38 MuiInputBase-fullWidth-56 MuiInput-fullWidth-41 MuiInputBase-formControl-48 MuiInput-formControl-35"
         >
           <div
             class="MuiSelect-root-27"
           >
             <select
               aria-invalid="false"
-              class="MuiSelect-select-28 MuiInputBase-input-57 MuiInput-input-42 MuiInputBase-inputMarginDense-58 MuiInput-inputMarginDense-43"
+              class="MuiSelect-select-28 MuiInputBase-input-57 MuiInput-input-42"
               data-testid="productsFilter"
+              id="productIdFilter"
               name="productIdFilter"
             >
               <option
@@ -387,24 +395,26 @@ exports[`BoxList renders correctly with when loading 1`] = `
       class="BoxList-productSelect-112"
     >
       <div
-        class="MuiFormControl-root-113 MuiFormControl-marginDense-115 MuiFormControl-fullWidth-116"
+        class="MuiFormControl-root-113 MuiFormControl-marginNormal-114 MuiFormControl-fullWidth-116"
       >
         <label
-          class="MuiFormLabel-root-128 MuiInputLabel-root-117 MuiInputLabel-formControl-122 MuiInputLabel-animated-125 MuiInputLabel-marginDense-123"
+          class="MuiFormLabel-root-128 MuiInputLabel-root-117 MuiInputLabel-formControl-122 MuiInputLabel-animated-125"
           data-shrink="false"
+          for="productIdFilter"
         >
           Filter by product
         </label>
         <div
-          class="MuiInputBase-root-155 MuiInput-root-142 MuiInput-underline-146 MuiInputBase-fullWidth-164 MuiInput-fullWidth-149 MuiInputBase-formControl-156 MuiInput-formControl-143 MuiInputBase-marginDense-162"
+          class="MuiInputBase-root-155 MuiInput-root-142 MuiInput-underline-146 MuiInputBase-fullWidth-164 MuiInput-fullWidth-149 MuiInputBase-formControl-156 MuiInput-formControl-143"
         >
           <div
             class="MuiSelect-root-135"
           >
             <select
               aria-invalid="false"
-              class="MuiSelect-select-136 MuiInputBase-input-165 MuiInput-input-150 MuiInputBase-inputMarginDense-166 MuiInput-inputMarginDense-151"
+              class="MuiSelect-select-136 MuiInputBase-input-165 MuiInput-input-150"
               data-testid="productsFilter"
+              id="productIdFilter"
               name="productIdFilter"
             >
               <option
