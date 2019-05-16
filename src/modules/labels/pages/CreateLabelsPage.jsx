@@ -11,8 +11,7 @@ const CreateLabelsPage = () => {
       {[...Array(numberOfLabels)].map(labelNumber => (
         <div className="label" key={labelNumber}>
           <div className="boxid">box number</div>
-          <div className="count">count</div>
-          <div className="product">product</div>
+          <div className="location">product</div>
           <img
             src={`https://chart.googleapis.com/chart?cht=qr&chs=150x150&chl=${uuidv4()}&chld=L|0`}
             alt="barcode"
