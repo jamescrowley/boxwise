@@ -23,7 +23,8 @@
     "redux": "^4.0.1",
     "redux-thunk": "^2.3.0",
     "typeface-roboto": "^0.0.54",
-    "uuid": "^3.3.2"
+    "uuid": "^3.3.2",
+    "snyk": "^1.222.1"
   },
   "devDependencies": {
     "babel-polyfill": "^6.26.0",
@@ -66,7 +67,9 @@
     "deploy-firestore": "firebase deploy --only firestore",
     "setup": "node utils/generate-env.js",
     "add-test-data": "node utils/generate-test-data.js",
-    "cypress:open": "cypress open"
+    "cypress:open": "cypress open",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "lint-staged": {
     "src/**/*.{js,jsx,json,css}": [
@@ -97,5 +100,6 @@
       "post-rewrite": "node checkdeploy",
       "pre-commit": "lint-staged"
     }
-  }
+  },
+  "snyk": true
 }
